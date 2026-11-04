@@ -39,6 +39,7 @@ public import MathEconLib.Choice.Matching.WeakSubstitutability
 public import MathEconLib.Choice.SubstituteHull
 public import MathEconLib.ForMathlib.AbsolutelyContinuous
 public import MathEconLib.ForMathlib.ApproximateSelection
+public import MathEconLib.ForMathlib.Data.List.BoundedChunks
 public import MathEconLib.ForMathlib.Data.PartialMatching
 public import MathEconLib.ForMathlib.Data.SetFiber
 public import MathEconLib.ForMathlib.FinsetUpdate
@@ -51,6 +52,7 @@ public import MathEconLib.ForMathlib.MeasureTheory.VonNeumannSelection
 public import MathEconLib.ForMathlib.Order.FixedPointLattice
 public import MathEconLib.ForMathlib.Order.IterateFiniteSet
 public import MathEconLib.ForMathlib.Order.IterateFixedPoint
+public import MathEconLib.ForMathlib.Order.ThinChains
 public import MathEconLib.ForMathlib.ProbabilityMeasure
 public import MathEconLib.ForMathlib.Quasiconvex
 public import MathEconLib.ForMathlib.Schauder
@@ -73,6 +75,7 @@ public import MathEconLib.GameTheory.Strategic.Outcome
 public import MathEconLib.Matching
 public import MathEconLib.Matching.Classical.Marriage
 public import MathEconLib.Matching.Classical.Marriage.Basic
+public import MathEconLib.Matching.Classical.Marriage.CountingBounds
 public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptance
 public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptanceComputable
 public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptanceFixedPoints
@@ -81,9 +84,12 @@ public import MathEconLib.Matching.Classical.Marriage.Existence
 public import MathEconLib.Matching.Classical.Marriage.FixedPointConvergence
 public import MathEconLib.Matching.Classical.Marriage.LoneWolf
 public import MathEconLib.Matching.Classical.Marriage.Optimality
+public import MathEconLib.Matching.Classical.Marriage.OrderIdeals
 public import MathEconLib.Matching.Classical.Marriage.Preferences
+public import MathEconLib.Matching.Classical.Marriage.RankInput
 public import MathEconLib.Matching.Classical.Marriage.StableOrder
 public import MathEconLib.Matching.Classical.Marriage.ToContracts
+public import MathEconLib.Matching.Classical.Marriage.Truncation
 public import MathEconLib.Matching.Contracts.Basic
 public import MathEconLib.Matching.Contracts.Completion
 public import MathEconLib.Matching.Contracts.FixedPointConvergence
