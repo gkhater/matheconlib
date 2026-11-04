@@ -5,13 +5,19 @@ Authors: Scott Duke Kominers
 -/
 module
 
+public import MathEconLib.Matching.Classical.Marriage.ComputedBlocks
+public import MathEconLib.Matching.Classical.Marriage.ComputedChains
+public import MathEconLib.Matching.Classical.Marriage.ComputedPoset
+public import MathEconLib.Matching.Classical.Marriage.ComputedRows
 public import MathEconLib.Matching.Classical.Marriage.CountingBounds
 public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptance
 public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptanceComputable
 public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptanceFixedPoints
 public import MathEconLib.Matching.Classical.Marriage.Distributive
 public import MathEconLib.Matching.Classical.Marriage.FixedPointConvergence
+public import MathEconLib.Matching.Classical.Marriage.IrreducibleCentrality
 public import MathEconLib.Matching.Classical.Marriage.IrreducibleChains
+public import MathEconLib.Matching.Classical.Marriage.IrreducibleComputation
 public import MathEconLib.Matching.Classical.Marriage.LoneWolf
 public import MathEconLib.Matching.Classical.Marriage.OrderIdeals
 public import MathEconLib.Matching.Classical.Marriage.RankChoice

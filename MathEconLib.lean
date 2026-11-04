@@ -53,6 +53,8 @@ public import MathEconLib.ForMathlib.Order.FixedPointLattice
 public import MathEconLib.ForMathlib.Order.IterateFiniteSet
 public import MathEconLib.ForMathlib.Order.IterateFixedPoint
 public import MathEconLib.ForMathlib.Order.ThinChains
+public import MathEconLib.ForMathlib.Order.ThinChains.Centrality
+public import MathEconLib.ForMathlib.Order.ThinChains.Pivot
 public import MathEconLib.ForMathlib.ProbabilityMeasure
 public import MathEconLib.ForMathlib.Quasiconvex
 public import MathEconLib.ForMathlib.Schauder
@@ -75,6 +77,10 @@ public import MathEconLib.GameTheory.Strategic.Outcome
 public import MathEconLib.Matching
 public import MathEconLib.Matching.Classical.Marriage
 public import MathEconLib.Matching.Classical.Marriage.Basic
+public import MathEconLib.Matching.Classical.Marriage.ComputedBlocks
+public import MathEconLib.Matching.Classical.Marriage.ComputedChains
+public import MathEconLib.Matching.Classical.Marriage.ComputedPoset
+public import MathEconLib.Matching.Classical.Marriage.ComputedRows
 public import MathEconLib.Matching.Classical.Marriage.CountingBounds
 public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptance
 public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptanceComputable
@@ -82,7 +88,9 @@ public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptanceFixedPoi
 public import MathEconLib.Matching.Classical.Marriage.Distributive
 public import MathEconLib.Matching.Classical.Marriage.Existence
 public import MathEconLib.Matching.Classical.Marriage.FixedPointConvergence
+public import MathEconLib.Matching.Classical.Marriage.IrreducibleCentrality
 public import MathEconLib.Matching.Classical.Marriage.IrreducibleChains
+public import MathEconLib.Matching.Classical.Marriage.IrreducibleComputation
 public import MathEconLib.Matching.Classical.Marriage.LoneWolf
 public import MathEconLib.Matching.Classical.Marriage.Optimality
 public import MathEconLib.Matching.Classical.Marriage.OrderIdeals
