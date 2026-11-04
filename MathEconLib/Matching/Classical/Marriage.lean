@@ -11,10 +11,17 @@ public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptanceComputab
 public import MathEconLib.Matching.Classical.Marriage.DeferredAcceptanceFixedPoints
 public import MathEconLib.Matching.Classical.Marriage.Distributive
 public import MathEconLib.Matching.Classical.Marriage.FixedPointConvergence
+public import MathEconLib.Matching.Classical.Marriage.IrreducibleChains
 public import MathEconLib.Matching.Classical.Marriage.LoneWolf
 public import MathEconLib.Matching.Classical.Marriage.OrderIdeals
+public import MathEconLib.Matching.Classical.Marriage.RankChoice
 public import MathEconLib.Matching.Classical.Marriage.RankInput
+public import MathEconLib.Matching.Classical.Marriage.RankInputTruncation
+public import MathEconLib.Matching.Classical.Marriage.RankRepresentation
+public import MathEconLib.Matching.Classical.Marriage.RankSymmetry
+public import MathEconLib.Matching.Classical.Marriage.RankTruncation
 public import MathEconLib.Matching.Classical.Marriage.StableOrder
+public import MathEconLib.Matching.Classical.Marriage.ThresholdComputation
 public import MathEconLib.Matching.Classical.Marriage.Truncation
 
 /-!
